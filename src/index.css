@@ -1,0 +1,35 @@
+body {
+  place-items: center;
+  font-family: Arial, Avenir, Inter, system-ui, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+  background-color: #eca8a8;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+header {
+  place-items: center;
+  background-color: #92af87;
+}
+
+h1 {
+  place-items: center;
+  font-size: 3em;
+  line-height: 1.1;
+  max-width: 800px;
+}
+
+h2 {
+  place-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}

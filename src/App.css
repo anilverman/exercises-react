@@ -1,0 +1,36 @@
+.app-nav {
+  margin: 1rem auto;
+  border: 1px solid #333;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.exercise-table th,
+.exercise-table td {
+  border: 1px solid #0c0303;
+  padding: 12px;
+  text-align: left;
+}
+
+.exercise-table th {
+  background-color: #f9f9f9;
+}
+
+.exercise-table tr:nth-child(odd) {
+  background-color: #b2dda0;
+}
+
+.exercise-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.exercise-table tr:hover {
+  background-color: #e0f7fa;
+}
