@@ -14,7 +14,7 @@ function App() {
     <header>
       <h1>Exercise Tracker</h1>
       <p>Full Stack MERN App Demonstration</p>
-      <p>Vite + React</p>
+      <p>Verman Website</p>
     </header>
     <div className='app'>
       <Router>
