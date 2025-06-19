@@ -9,6 +9,7 @@ function HomePage({setExerciseToEdit}) {
     const API_BASE = process.env.VITE_API_URL;
 
     const loadExercises = async () => {
+        console.log("testing")
         console.log(API_BASE)
         const response = await fetch(`${API_BASE}/exercises`);
         const exercises = await response.json();
