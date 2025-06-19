@@ -6,8 +6,10 @@ function HomePage({setExerciseToEdit}) {
     const [exercises, setExercises] = useState([]);
     const navigate = useNavigate();
 
+    const API_BASE = import.meta.env.VITE_API_URL;
+
     const loadExercises = async () => {
-        const response = await fetch('/exercises');
+        const response = await fetch(`${API_BASE}/exercises`);
         const exercises = await response.json();
         setExercises(exercises);
     }
@@ -17,7 +19,7 @@ function HomePage({setExerciseToEdit}) {
     }, []);
 
     const onDelete = async (_id) => {
-        const response = await fetch(`/exercises/${_id}`, { method: 'DELETE' });
+        const response = await fetch(`${API_BASE}/exercises/${_id}`, { method: 'DELETE' });
         if (response.status === 204) {
             setExercises(exercises.filter(m => m._id !== _id));
         } else {

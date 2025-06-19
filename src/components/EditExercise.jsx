@@ -11,8 +11,10 @@ function EditExercise({exerciseToEdit}) {
 
     const navigate = useNavigate();
 
+    const API_BASE = import.meta.env.VITE_API_URL;
+
     const editExercise = async () => {
-        const response = await fetch(`/exercises/${exerciseToEdit._id}`, { 
+        const response = await fetch(`${API_BASE}/exercises/${exerciseToEdit._id}`, { 
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({name, reps, weight, unit, date})
