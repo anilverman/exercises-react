@@ -6,7 +6,7 @@ function HomePage({setExerciseToEdit}) {
     const [exercises, setExercises] = useState([]);
     const navigate = useNavigate();
 
-    const API_BASE = import.meta.env.VITE_API_URL;
+    const API_BASE = process.env.VITE_API_URL;
 
     const loadExercises = async () => {
         const response = await fetch(`${API_BASE}/exercises`);

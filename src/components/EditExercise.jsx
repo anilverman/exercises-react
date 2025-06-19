@@ -11,7 +11,7 @@ function EditExercise({exerciseToEdit}) {
 
     const navigate = useNavigate();
 
-    const API_BASE = import.meta.env.VITE_API_URL;
+    const API_BASE = process.env.VITE_API_URL;
 
     const editExercise = async () => {
         const response = await fetch(`${API_BASE}/exercises/${exerciseToEdit._id}`, { 
