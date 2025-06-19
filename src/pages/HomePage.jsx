@@ -6,7 +6,8 @@ function HomePage({setExerciseToEdit}) {
     const [exercises, setExercises] = useState([]);
     const navigate = useNavigate();
 
-    const API_BASE = process.env.VITE_API_URL;
+    //const API_BASE = process.env.VITE_API_URL; https://exercises-rest.onrender.com
+    const API_BASE = "https://exercises-rest.onrender.com"
 
     const loadExercises = async () => {
         console.log("testing")
