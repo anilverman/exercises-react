@@ -17,9 +17,6 @@ This is the **React frontend** for the Full-Stack Exercise Tracker App. It allow
 - Edit or delete existing exercises
 - Client-side routing and component-based design
 
-## 🔗 Related Projects
-- **Backend (API):** [https://github.com/anilverman/exercises-rest](https://github.com/anilverman/exercises-rest)
-
 ## 🔗 Project Links
 
 - 🔗 **Live Demo**: [https://exercises-react.vercel.app](https://exercises-react.vercel.app)  
