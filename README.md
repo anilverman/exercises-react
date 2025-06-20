@@ -4,6 +4,7 @@ This is the **React frontend** for the Full-Stack Exercise Tracker App. It allow
 
 ## 🚀 Live Demo
 👉 [https://exercises-react.vercel.app](https://exercises-react.vercel.app)
+**Hosted on Vercel**
 
 ## 🛠️ Tech Stack
 - React
