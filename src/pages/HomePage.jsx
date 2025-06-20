@@ -12,6 +12,7 @@ function HomePage({setExerciseToEdit}) {
 
     const loadExercises = async () => {
         console.log(test_API)
+        console.log("this is render URL")
         const response = await fetch(`${API_BASE}/exercises`);
         const exercises = await response.json();
         setExercises(exercises);
