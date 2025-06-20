@@ -1,6 +1,7 @@
 # 🏋️ Exercise Tracker – Frontend
 ![GitHub last commit](https://img.shields.io/github/last-commit/anilverman/exercises-react)
 ![GitHub repo size](https://img.shields.io/github/repo-size/anilverman/exercises-react)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fexercises-react.vercel.app)
 ![Tech Stack](https://img.shields.io/badge/stack-MERN-brightgreen)
 ![Hosted On](https://img.shields.io/badge/host-Vercel-blue)
 
