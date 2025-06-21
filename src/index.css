@@ -1,35 +1,60 @@
 body {
-  place-items: center;
-  font-family: Arial, Avenir, Inter, system-ui, Helvetica, sans-serif;
-  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  line-height: 1.6;
   padding: 2rem;
-  background-color: #eca8a8;
+  margin: 0;
+  background-color: #f0f4f8;
+  color: #333;
 }
 
 input,
 button {
   font-family: inherit;
+  padding: 10px;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
 }
 
 header {
-  place-items: center;
-  background-color: #92af87;
+  width: 100%;
+  text-align: center;
+  background-color: #6da27f;
+  color: white;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 h1 {
-  place-items: center;
-  font-size: 3em;
-  line-height: 1.1;
+  font-size: 2.5rem;
+  margin: 0 auto;
   max-width: 800px;
 }
 
 h2 {
-  place-items: center;
+  font-size: 1.8rem;
+  margin-top: 2rem;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
+  color: #666;
 }

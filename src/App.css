@@ -1,8 +1,12 @@
 .app-nav {
-  margin: 1rem auto;
-  border: 1px solid #333;
-  border-radius: 8px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  max-width: 800px;
 }
 
 .exercise-table {
@@ -10,27 +14,30 @@
   border-collapse: collapse;
   margin-top: 20px;
   margin-bottom: 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .exercise-table th,
 .exercise-table td {
-  border: 1px solid #0c0303;
-  padding: 12px;
+  border: 1px solid #dcdcdc;
+  padding: 14px 18px;
   text-align: left;
 }
 
 .exercise-table th {
-  background-color: #f9f9f9;
+  background-color: #f4f6f8;
+  font-weight: 600;
 }
 
 .exercise-table tr:nth-child(odd) {
-  background-color: #b2dda0;
+  background-color: #f9fbfc;
 }
 
 .exercise-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .exercise-table tr:hover {
-  background-color: #e0f7fa;
+  background-color: #e3f2fd;
+  cursor: pointer;
 }
