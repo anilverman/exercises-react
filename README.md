@@ -8,7 +8,7 @@
 This is the **React frontend** for the Full-Stack Exercise Tracker App. It allows users to create, read, update, and delete workout entries.
 
 ## 🚀 Live Demo
-👉 [https://exercises-react.vercel.app](https://exercises-react.vercel.app)
+👉 [https://exercises-react.vercel.app]([https://exercises-react.vercel.app](https://exercises-react-pi.vercel.app/))
 **Hosted on Vercel**
 
 ## 🛠️ Tech Stack
